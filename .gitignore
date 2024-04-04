@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Dependency Management
+package-lock.json
+yarn.lock
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+
+# Compiled Files
+dist/
+build/
+*.log
+
+# IDE/Editor Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.vs/
+
+# Operating System Files
+Thumbs.db
+.DS_Store
+
+# Temporary Files
+*.tmp
+*.swp
+
+# Logs and Generated Files
+logs/
+*.log
+
+# Tests and Test Artifacts
+coverage/
+.nyc_output/
+
+# Personal Files
+.DS_Store
+
+# Miscellaneous
+.classpath
+.project
+.settings/
