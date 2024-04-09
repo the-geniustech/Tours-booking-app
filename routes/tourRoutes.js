@@ -1,8 +1,6 @@
 import { Router } from 'express';
 import {
-  checkID,
   getAllTours,
-  checkBody,
   createTour,
   getTour,
   updateTour,
@@ -11,9 +9,9 @@ import {
 
 const router = Router();
 
-router.param('id', checkID);
+// router.param('id', checkID);
 
-router.route('/').get(getAllTours).post(checkBody, createTour);
+router.route('/').get(getAllTours).post(createTour);
 
 router.route('/:id').get(getTour).patch(updateTour).delete(deleteTour);
 
